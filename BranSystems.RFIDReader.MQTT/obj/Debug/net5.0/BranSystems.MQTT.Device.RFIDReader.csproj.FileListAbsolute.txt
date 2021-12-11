@@ -1,0 +1,17 @@
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.deps.json
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\ref\BranSystems.MQTT.Device.RFIDReader.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.pdb
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\BranSystems.MQTT.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\ErrorLog.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\RFIDReader.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\bin\Debug\net5.0\BranSystems.MQTT.pdb
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.csproj.AssemblyReference.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.AssemblyInfoInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.AssemblyInfo.cs
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.csproj.CoreCompileInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.csproj.CopyComplete
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\ref\BranSystems.MQTT.Device.RFIDReader.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.RFIDReader.MQTT\obj\Debug\net5.0\BranSystems.MQTT.Device.RFIDReader.pdb

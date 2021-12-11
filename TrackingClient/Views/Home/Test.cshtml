@@ -1,0 +1,30 @@
+﻿
+<div class="text-center">
+    <input type="text" id="name" name="name" placeholder="Enter Student name" class="form-control" autocomplete="off" /><br />
+    <input type="text" id="email" name="email" placeholder="Enter Student Email" class="form-control" autocomplete="off" /><br />
+    <input type="button" value="Post using Ajax" id="post" class="btn btn-primary" />
+</div>
+
+@section Scripts{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#post").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/AJAXPost",
+                    data: { "name": $("#name").val(), "email": $("#email").val() },
+                    success: function (response) {
+                        alert("Student Name: " + response.Name + "<br/>Email: " + response.Email);
+                    },
+                    failure: function (response) {
+                        alert(response.responseText);
+                    },
+                    error: function (response) {
+                        alert(response.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+
+}

@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranSystems.Container.RFIDReader", "BranSystems.Container.RFIDReader\BranSystems.Container.RFIDReader.csproj", "{50BFF5DA-C59C-4D6E-8B23-17706DE27BEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{1B985DF0-415F-4CB2-A1BB-337A1CEAFD4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{E4620A27-B960-40F7-9603-AFE20CA95727}"
+	ProjectSection(SolutionItems) = preProject
+		DLL\DatabaseHandler.dll = DLL\DatabaseHandler.dll
+		DLL\EDREApi.dll = DLL\EDREApi.dll
+		DLL\ErrorLog.dll = DLL\ErrorLog.dll
+		DLL\IOClasses.dll = DLL\IOClasses.dll
+		DLL\mosquitto.dll = DLL\mosquitto.dll
+		DLL\MXIO.dll = DLL\MXIO.dll
+		DLL\RFIDReader.dll = DLL\RFIDReader.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranSystems.MQTT.Device.RFIDReader", "BranSystems.RFIDReader.MQTT\BranSystems.MQTT.Device.RFIDReader.csproj", "{41BB71BE-77E9-412C-AF5E-6FD54F1A6F49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranSystems.MQTT", "BranSystems.MQTT\BranSystems.MQTT.csproj", "{E8779D8B-4207-4AE0-B8C0-F007DEE2A72E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranSystems.MQTT.Device.IOController", "BranSystems.MQTT.Device.IOController\BranSystems.MQTT.Device.IOController.csproj", "{237F6A9B-3F58-45DB-B594-DFCC5F681C32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BranSystems.Container.IO", "BranSystems.Container.IO\BranSystems.Container.IO.csproj", "{85D3C303-2FC3-404D-8577-0C43DCE78AC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackingClient", "TrackingClient\TrackingClient.csproj", "{6CE96FF0-D397-4189-8B70-4BBB5EC2BE75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50BFF5DA-C59C-4D6E-8B23-17706DE27BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BFF5DA-C59C-4D6E-8B23-17706DE27BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BFF5DA-C59C-4D6E-8B23-17706DE27BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BFF5DA-C59C-4D6E-8B23-17706DE27BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B985DF0-415F-4CB2-A1BB-337A1CEAFD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B985DF0-415F-4CB2-A1BB-337A1CEAFD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B985DF0-415F-4CB2-A1BB-337A1CEAFD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B985DF0-415F-4CB2-A1BB-337A1CEAFD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BB71BE-77E9-412C-AF5E-6FD54F1A6F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BB71BE-77E9-412C-AF5E-6FD54F1A6F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BB71BE-77E9-412C-AF5E-6FD54F1A6F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BB71BE-77E9-412C-AF5E-6FD54F1A6F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8779D8B-4207-4AE0-B8C0-F007DEE2A72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8779D8B-4207-4AE0-B8C0-F007DEE2A72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8779D8B-4207-4AE0-B8C0-F007DEE2A72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8779D8B-4207-4AE0-B8C0-F007DEE2A72E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237F6A9B-3F58-45DB-B594-DFCC5F681C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237F6A9B-3F58-45DB-B594-DFCC5F681C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237F6A9B-3F58-45DB-B594-DFCC5F681C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237F6A9B-3F58-45DB-B594-DFCC5F681C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85D3C303-2FC3-404D-8577-0C43DCE78AC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85D3C303-2FC3-404D-8577-0C43DCE78AC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85D3C303-2FC3-404D-8577-0C43DCE78AC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85D3C303-2FC3-404D-8577-0C43DCE78AC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE96FF0-D397-4189-8B70-4BBB5EC2BE75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE96FF0-D397-4189-8B70-4BBB5EC2BE75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE96FF0-D397-4189-8B70-4BBB5EC2BE75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE96FF0-D397-4189-8B70-4BBB5EC2BE75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9848EB00-8FA1-41B3-A1F9-CADBBD0A0E29}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://bransystems.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj
+		SccProjectName1 = BranSystems.Container.RFIDReader
+		SccLocalPath1 = BranSystems.Container.RFIDReader
+		SccProjectUniqueName2 = TestConsole\\TestConsole.csproj
+		SccProjectName2 = TestConsole
+		SccLocalPath2 = TestConsole
+		SccProjectUniqueName3 = BranSystems.MQTT\\BranSystems.MQTT.csproj
+		SccProjectName3 = BranSystems.MQTT
+		SccLocalPath3 = BranSystems.MQTT
+		SccProjectUniqueName4 = BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj
+		SccProjectName4 = BranSystems.RFIDReader.MQTT
+		SccLocalPath4 = BranSystems.RFIDReader.MQTT
+		SccProjectUniqueName5 = BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj
+		SccProjectName5 = BranSystems.MQTT.Device.IOController
+		SccLocalPath5 = BranSystems.MQTT.Device.IOController
+		SccProjectUniqueName6 = BranSystems.Container.IO\\BranSystems.Container.IO.csproj
+		SccProjectName6 = BranSystems.Container.IO
+		SccLocalPath6 = BranSystems.Container.IO
+		SccProjectUniqueName7 = TrackingClient\\TrackingClient.csproj
+		SccProjectName7 = TrackingClient
+		SccLocalPath7 = TrackingClient
+	EndGlobalSection
+EndGlobal

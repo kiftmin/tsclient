@@ -1,0 +1,7 @@
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.AssemblyInfoInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.AssemblyInfo.cs
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.csproj.CoreCompileInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.MvcApplicationPartsAssemblyInfo.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.RazorAssemblyInfo.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\TrackingClient\obj\Release\net5.0\TrackingClient.RazorAssemblyInfo.cs

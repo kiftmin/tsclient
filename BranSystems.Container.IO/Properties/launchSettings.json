@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BranSystems.Container.IO": {
+      "commandName": "Project",
+      "commandLineArgs": "-anon:true -ioip:10.0.0.110 -iochannels:DI0,Unit%20Detect,DI,DI,0,false|DI1,Unit%20in%20Station,DI,DI,1,false"
+    },
+    "AWS": {
+      "commandName": "Project",
+      "commandLineArgs": "-prt:443 -hst:mosquitto-route-kiftmin-dev.apps.sandbox.x8i5.p1.openshiftapps.com"
+    }
+  }
+}

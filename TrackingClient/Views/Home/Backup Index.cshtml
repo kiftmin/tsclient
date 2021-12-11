@@ -1,0 +1,136 @@
+﻿@using TestClass;
+@using TrackingClient.Services;
+@{
+
+    Layout = null;
+    string UnitStatus_Default = "Blue";
+
+    bool detected = @Global.IOConnectionStatus;
+    bool reader = @Global.ReaderConnectionStatus;
+
+    if (reader == false)
+    {
+        UnitStatus_Default = "";
+        detected = true;
+    }
+
+    if (detected == false)
+    {
+        UnitStatus_Default = "";
+        reader = true;
+    }
+
+
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    @{
+        if (UnitStatus_Default == "Blue")
+        {
+            <div style="margin-left:auto;margin-right:auto;color:white;background-color:blue">
+
+                <h1><b style="text-align:center">Waiting For Unit</b></h1><br /><br />
+                <br /><br /><br /><br /><br />
+            </div>
+        }
+
+
+        if (reader == false)
+        {
+            <div style="margin-left:auto;margin-right:auto;color:white;background-color:gold">
+
+                <h1><b style="text-align:center">Unit Detected</b></h1><br /><br />
+                <br /><br /><br /><br /><br />
+            </div>
+        }
+
+        if (detected == false)
+        {
+            <div style="margin-left:auto;margin-right:auto;color:white;background-color:gold">
+                <br /><br /><br /><br /><br />
+                <h1>
+                    <b style="text-align:center;margin-left:auto;margin-right:auto">
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        TAG FOUND
+                    </b>
+                    @*do something*@
+                </h1><br /><br />
+                <br /><br /><br /><br /><br />
+            </div>
+        }
+
+    }
+    <hr />
+    <table style="margin-left:auto;margin-right:auto" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><b>Time: </b> <span>&nbsp;</span>@Global.ReaderConnectionStatusDate.ToString("yyyy-MM-dd HH:mm:ss")</td>
+            <td>
+            </td>
+            @*@{
+
+                    if (UnitStatus == "Green")
+                    {
+                        <td><b>PNR: </b> <span>&nbsp;</span> 9828272626266</td>
+                        <td>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <b> RBS Data: </b> <span>&nbsp;</span> 901
+                        </td>
+                    }
+                }*@
+        </tr>
+        <tr>
+            <td><b><br /><br /> Reader:  </b> <span>&nbsp;</span>@ViewBag.myVar2</td>
+        </tr>
+
+    </table>
+    <h4 style="color:gray;margin-left:auto;margin-right:auto;text-align:center"><b>Status</b></h4>
+    <table style="margin-left:auto;margin-right:auto;" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><b>Reader Heartbeat:</b> <span>&nbsp;</span> @Global.ReaderConnectionStatus</td>
+
+        </tr>
+        <tr>
+            <td>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <b>  IO Heartbeat: </b> <span>&nbsp;</span> @Global.IOConnectionStatus
+            </td>
+        </tr>
+    </table>
+
+    <h3>
+        @Html.ActionLink("Reload", "ReadTag")
+    </h3>
+</body>
+</html>
+
+
+<script>
+    window.setInterval('refresh()', 3000);
+
+    function refresh() {
+        window.location.reload();
+    }
+
+    function OnSuccess(response) { alert(response.d); }
+</script>

@@ -1,0 +1,210 @@
+﻿@using TrackingClient.Services;
+@using TrackingClient;
+@{
+
+    Layout = null;
+    Processing.State ProcessingState = Global.ProcessingState;
+
+    bool detected = @Global.IOConnectionStatus;
+    bool reader = @Global.ReaderConnectionStatus;
+
+    if (reader == false)
+        detected = true;
+
+    if (detected == false)
+        reader = true;
+
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+    <script type="text/javascript">
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/pagehub")
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        async function start() {
+            try {
+                await connection.start();
+                console.log("SignalR Connected.");
+            } catch (err) {
+                console.log(err);
+                setTimeout(start, 2000);
+            }
+        };
+
+        connection.onclose(async () => {
+            await start();
+        });
+
+        // Start the connection.
+        start();
+
+        connection.on("ReceiveProcessingState", function (state) {
+            console.log('ReceiveProcessingState = ' + state);
+
+            let banner = document.getElementById('processStateBanner');
+            let clr = 'gray'
+            let lbl = '';
+
+            switch (state) {
+                case 0: lbl = '@Processing.State.WaitingForUnit.DisplayName()'; clr = 'navy'; break;
+                case 1: lbl = '@Processing.State.UnitDetected.DisplayName()'; clr = 'goldenrod'; break;
+                case 2: lbl = '@Processing.State.UnitInStation.DisplayName()'; clr = 'goldenrod'; break;
+                case 3: lbl = '@Processing.State.ReadingTag.DisplayName()'; clr = 'goldenrod'; break;
+                case 4: lbl = '@Processing.State.TagRead.DisplayName()'; clr = 'goldenrod'; break;
+                case 5: lbl = '@Processing.State.ProcessingUnit.DisplayName()'; clr = 'blue'; break;
+                case 6: lbl = '@Processing.State.UnitReleased.DisplayName()'; clr = 'limegreen'; break;
+                case 7: lbl = '@Processing.State.TransactionFailed.DisplayName()'; clr = 'red'; break;
+            }
+
+            banner.style.backgroundColor = clr;
+            document.getElementById('processStateLabel').textContent = lbl;
+        });
+
+        connection.on("ReceiveRFIDTag", function (tag) {
+            console.log('ReceiveRFIDTag = ' + tag.tagID);
+            document.getElementById('tagId').textContent = tag.tagID;
+            document.getElementById('tagPin').textContent = tag.pinNumber;
+            document.getElementById('tagRBS').textContent = tag.rbsNumber;
+            document.getElementById('tagTimeRead').textContent = tag.transponderReadTime;
+        });
+
+        connection.on("ReceiveTransactionStatus", function (status) {
+            console.log('ReceiveTransactionStatus = ' + status);
+            document.getElementById('transactionStatus').textContent = status;
+        });
+
+        connection.on("ReceiveReaderConnectionState", function (status) {
+            console.log('ReceiveReaderConnectionState = ' + status);
+            document.getElementById('readerHBlbl').textContent = (new Date()).toISOString();
+            let rdrHB = document.getElementById('readerHB');
+            if (status)
+                rdrHB.style.backgroundColor = 'limegreen';
+            else
+                rdrHB.style.backgroundColor = 'red';
+            updateParents();
+        });
+
+        connection.on("ReceiveIOConnectionState", function (status) {
+            console.log('ReceiveIOConnectionState = ' + status);
+            document.getElementById('ioHBlbl').textContent = (new Date()).toISOString();
+            let rdrHB = document.getElementById('ioHB');
+            if (status)
+                rdrHB.style.backgroundColor = 'limegreen';
+            else
+                rdrHB.style.backgroundColor = 'red';
+            updateParents();
+        });
+
+        connection.on("ReceiveReaderMQTTStatus", function (status) {
+            console.log('ReceiveReaderMQTTStatus = ' + status);
+            let rdrHB = document.getElementById('readerMQTT');
+            rdrHB.textContent = (new Date()).toISOString();
+            if (status)
+                rdrHB.style.backgroundColor = 'limegreen';
+            else
+                rdrHB.style.backgroundColor = 'red';
+            updateParents();
+        });
+
+        connection.on("ReceiveIOMQTTStatus", function (status) {
+            console.log('ReceiveIOMQTTStatus = ' + status);
+            let rdrHB = document.getElementById('ioMQTT');
+            rdrHB.textContent = (new Date()).toISOString();
+            if (status)
+                rdrHB.style.backgroundColor = 'limegreen';
+            else
+                rdrHB.style.backgroundColor = 'red';
+            updateParents();
+        });
+
+        function updateParents() {
+            let e = null;
+            let element = [ 'ioMQTT', 'readerMQTT', 'ioHB', 'readerHB' ];
+            for (let i = 0; i < element.length; i++) {
+                e = document.getElementById(element[i]);
+                e.parentElement.style.backgroundColor = e.style.backgroundColor;
+            }
+        }
+
+        document.addEventListener("load", updateParents);
+    </script>
+
+    @{
+        string clr = "gray";
+        switch (ProcessingState)
+        {
+            case Processing.State.WaitingForUnit: clr = "navy"; break;
+            case Processing.State.UnitDetected:
+            case Processing.State.UnitInStation:
+            case Processing.State.ReadingTag:
+            case Processing.State.TagRead: clr = "goldenrod"; break;
+            case Processing.State.ProcessingUnit: clr = "blue"; break;
+            case Processing.State.UnitReleased: clr = "limegreen"; break;
+            case Processing.State.TransactionFailed: clr = "red"; break;
+        }
+        <div id="processStateBanner" style="margin-left:auto;margin-right:auto;color:white;background-color:@clr;height:20vh;align-content:center;display:grid;">
+            <span id="processStateLabel" style="text-align: center;font-size:xxx-large;">@ProcessingState.DisplayName()</span>
+        </div>
+    }
+    <hr />
+
+    <div style="margin-left:auto;margin-right:auto;color:black;background-color:lightgray;align-content:center;display:grid;">
+        <span style="text-align: center;font-size:large;">Transaction Status: <label id="transactionStatus"></label></span>
+    </div>
+
+    <hr />
+    <table style="margin-left:auto;margin-right:auto" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><b>Tag ID: </b></td>
+            <td><label id="tagId"></label></td>
+        </tr>
+        <tr>
+            <td><b>Pin: </b></td>
+            <td><label id="tagPin"></label></td>
+        </tr>
+        <tr>
+            <td><b>RBS: </b></td>
+            <td><label id="tagRBS"></label></td>
+        </tr>
+        <tr>
+            <td><b>Time Read: </b></td>
+            <td><label id="tagTimeRead"></label></td>
+        </tr>
+        <tr>
+            <td><b><br /><br />Reader Options:  </b> <span>&nbsp;</span>@ViewBag.ReaderOptions</td>
+        </tr>
+        <tr>
+            <td><b>IO Options:  </b> <span>&nbsp;</span>@ViewBag.IOOptions</td>
+        </tr>
+
+    </table>
+    <h4 style="color:gray;margin-left:auto;margin-right:auto;text-align:center"><b>Status</b></h4>
+    <table style="margin-left:auto;margin-right:auto;text-align:center;" cellpadding="0" cellspacing="0">
+        <tr>
+            <td><b id="readerMQTT" style="background-color:@( (Global.ReaderMQTTStatus ? "limegreen" : "red") )">Reader MQTT</td>
+            <td><b id="ioMQTT" style="background-color:@( (Global.IOMQTTStatus ? "limegreen" : "red") )">IO MQTT</td>
+        </tr>
+        <tr>
+            <td><b id="readerHB" style="background-color:@( (Global.ReaderConnectionStatus ? "limegreen" : "red") )">Reader HB: </b></td>
+            <td><label id="readerHBlbl">@Global.ReaderConnectionStatusDate.ToString("yyyy-MM-dd HH:mm:ss")</label></td>
+        </tr>
+        <tr>
+            <td><b id="ioHB" style="background-color:@( (Global.IOConnectionStatus ? "limegreen" : "red") )">IO HB: </b></td>
+            <td><label id="ioHBlbl">@Global.IOConnectionStatusDate.ToString("yyyy-MM-dd HH:mm:ss")</label></td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+

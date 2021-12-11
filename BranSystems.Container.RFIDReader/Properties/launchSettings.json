@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BranSystems.Container.RFIDReader": {
+      "commandName": "Project",
+      "commandLineArgs": "-prt:443 -hst:mosquitto-route-kiftmin-dev.apps.sandbox.x8i5.p1.openshiftapps.com"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

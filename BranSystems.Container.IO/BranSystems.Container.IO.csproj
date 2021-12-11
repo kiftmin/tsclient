@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mosquitto_ca.crt.bak" />
+    <None Remove="test.tar" />
+    <None Remove="test1.tar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BranSystems.MQTT.Device.IOController\BranSystems.MQTT.Device.IOController.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EDREApi">
+      <HintPath>..\DLL\EDREApi.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorLog">
+      <HintPath>..\DLL\ErrorLog.dll</HintPath>
+    </Reference>
+    <Reference Include="IOClasses">
+      <HintPath>..\DLL\IOClasses.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="mosquitto_ca.crt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="MXIO.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

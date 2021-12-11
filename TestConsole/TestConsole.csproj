@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="mosquitto_ca.crt.bak" />
+    <None Remove="test.tar" />
+    <None Remove="test2.tar" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="MQTTnet" Version="3.0.16" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BranSystems.Container.IO\BranSystems.Container.IO.csproj" />
+    <ProjectReference Include="..\BranSystems.MQTT.Device.IOController\BranSystems.MQTT.Device.IOController.csproj" />
+    <ProjectReference Include="..\BranSystems.RFIDReader.MQTT\BranSystems.MQTT.Device.RFIDReader.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ErrorLog">
+      <HintPath>..\DLL\ErrorLog.dll</HintPath>
+    </Reference>
+    <Reference Include="IOClasses">
+      <HintPath>..\DLL\IOClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="RFIDReader">
+      <HintPath>..\DLL\RFIDReader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="mosquitto_ca.crt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

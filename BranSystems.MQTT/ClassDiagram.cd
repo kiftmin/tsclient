@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BranSystems.MQTT.Extend.Action">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extend\Action.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BranSystems.MQTT.Extend.Topic">
+    <Position X="3" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extend\Topic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BranSystems.MQTT.Helper.Enumaration">
+    <Position X="1.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Helper\Enumaration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BranSystems.MQTT.Abstract.ActionCall" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Abstract\ActionCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BranSystems.MQTT.Abstract.Status" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abstract\Status.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BranSystems.MQTT.Abstract.Detail" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAAAAAACAAAAQ=</HashCode>
+      <FileName>Abstract\Detail.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="BranSystems.MQTT.Interface.ISubscriber" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Interface\ISubscriber.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BranSystems.MQTT.Interface.IPublisher" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAEAAAAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Interface\IPublisher.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BranSystems.MQTT.IMessage" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Interface\IMessage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BranSystems.MQTT.Interface.IDetail" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACAAAAQ=</HashCode>
+      <FileName>Interface\IDetail.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,12 @@
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.deps.json
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\bin\Debug\net5.0\ref\BranSystems.MQTT.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.pdb
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.csproj.AssemblyReference.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.GeneratedMSBuildEditorConfig.editorconfig
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.AssemblyInfoInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.AssemblyInfo.cs
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.csproj.CoreCompileInputs.cache
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\ref\BranSystems.MQTT.dll
+C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.pdb

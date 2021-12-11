@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="IoPort.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MQTTnet" Version="3.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BranSystems.MQTT\BranSystems.MQTT.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EDREApi">
+      <HintPath>..\DLL\EDREApi.dll</HintPath>
+    </Reference>
+    <Reference Include="ErrorLog">
+      <HintPath>..\DLL\ErrorLog.dll</HintPath>
+    </Reference>
+    <Reference Include="IOClasses">
+      <HintPath>..\DLL\IOClasses.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
