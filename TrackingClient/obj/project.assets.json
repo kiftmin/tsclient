@@ -8153,25 +8153,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Bradley\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\TrackingClient\\TrackingClient.csproj",
+      "projectUniqueName": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\TrackingClient.csproj",
       "projectName": "TrackingClient",
-      "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\TrackingClient\\TrackingClient.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\TrackingClient\\obj\\",
+      "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\TrackingClient.csproj",
+      "packagesPath": "C:\\Users\\Bradley\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bradley\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -8184,20 +8189,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
+            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
+              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
             },
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj"
+            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj": {
+              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj"
             },
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
+            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
+              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
             },
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
+            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
+              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
             },
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
+            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
+              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
             }
           }
         }
@@ -8257,24 +8262,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.11, 5.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8283,7 +8270,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
       }
     }
   }

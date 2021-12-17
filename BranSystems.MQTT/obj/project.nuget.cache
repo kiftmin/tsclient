@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OCRQvFQ0LCMWDF53320cxsbnUdXNhZ3XsDnAt+BqU3OToAuj6WayxyWTLU3k1ajj9MFW2JbUWGvBqam4IJvbZg==",
+  "dgSpecHash": "0F3iS5265Em0+dNMwBPJTfzNzqJJPOj4JfWDW9NttK34fXOP5mAoJq+o+7o0dYb3Z6e7qz6ghr+NstRTzjquaw==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

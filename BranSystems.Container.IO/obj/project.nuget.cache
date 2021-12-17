@@ -1,14 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SyN703HbrUDHIObbFznbOfTTDh+1Mc714w3W+0SAc8XoXpLMFDwhf+VtDiFsI36+0lYPFAI9ehGMUCF5u8Rmkg==",
+  "dgSpecHash": "w3+dU8jPh3kK90bzOsRS24KJs5ULYulgWSuzNNnWAxl3jwKZOPrBBbGbMYA/qTomAOvSOyf61LqBFzROh7jXiA==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],
   "logs": []
 }

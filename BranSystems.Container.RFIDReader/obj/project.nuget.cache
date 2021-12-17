@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vyV2+1pV8zvwzwTAeef2xKbMeoYsZyySkqZV+0L/9D1oBqshT4Nc0ZRg5y4qqp6zA5CPQQfKkaED5u0UI22//A==",
+  "dgSpecHash": "INmxRIywxJ6I3Qwh2UFDTtOcKChmH4AJRRe8uqd3MOYszwW6kl8/jYHaqHo/N36zoecbBT57zb9fm63qDsm7Fw==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
+  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bradley\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],
   "logs": []
 }

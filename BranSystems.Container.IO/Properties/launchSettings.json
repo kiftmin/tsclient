@@ -6,7 +6,7 @@
     },
     "AWS": {
       "commandName": "Project",
-      "commandLineArgs": "-prt:443 -hst:mosquitto-route-kiftmin-dev.apps.sandbox.x8i5.p1.openshiftapps.com"
+      "commandLineArgs": "-prt:443 -hst:mosquitto-app-kiftmin-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com"
     }
   }
 }

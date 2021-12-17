@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0b4A9DnmCiCel5QP9WhERanlUpOZCqtnu8VqxGELDuz8jroV5JHflBqzcfpryEwcdKt/S8dastXdqor8t2wUgA==",
+  "dgSpecHash": "r9QautOI7HBWrsI/frJh2qd8JJALBwJ02UDG01cVDkt5pkdHlXSwEZ3YmtzunhXIyw1oghsa9sqNO6aku29p9A==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
+  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,7 +2,7 @@
   "profiles": {
     "TestConsole": {
       "commandName": "Project",
-      "commandLineArgs": "-prt:443 -hst:mosquitto-route-kiftmin-dev.apps.sandbox.x8i5.p1.openshiftapps.com"
+      "commandLineArgs": "-prt:443 -hst:mosquitto-app-kiftmin-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com"
     },
     "TestClient2": {
       "commandName": "Project",
@@ -21,7 +21,7 @@
     },
     "TestRFIDReader_RHEL": {
       "commandName": "Project",
-      "commandLineArgs": "-testRFID -cid:readertest -hst:mosquitto-route-kiftmin-dev.apps.sandbox.x8i5.p1.openshiftapps.com -prt:443 -tmo:20 -u:muser -p:T03smuser123 -anon:false"
+      "commandLineArgs": "-testRFID -cid:readertest -hst:mosquitto-app-kiftmin-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com -prt:443 -tmo:20 -u:muser -p:T03smuser123 -anon:false"
     }
   }
 }
