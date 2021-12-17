@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SyN703HbrUDHIObbFznbOfTTDh+1Mc714w3W+0SAc8XoXpLMFDwhf+VtDiFsI36+0lYPFAI9ehGMUCF5u8Rmkg==",
+  "dgSpecHash": "jT3lVTgw0E2ldag5zvpgDyk84OAhq4ADC/PsP8aLouoOuKCKdldv1PkSUUbO4T8ohtr/6g5ZWBvyAMcFqy38fQ==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512",

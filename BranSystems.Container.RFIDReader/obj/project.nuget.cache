@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vyV2+1pV8zvwzwTAeef2xKbMeoYsZyySkqZV+0L/9D1oBqshT4Nc0ZRg5y4qqp6zA5CPQQfKkaED5u0UI22//A==",
+  "dgSpecHash": "VNY1vM/FOC36LM5LFTYPSO1j9Z7SS566TO+7QALrwZbEl9I+ffHtlOZoKEe7iWjvw9aw9NaqgCwOXp6O+kW6JA==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",

@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
       "projectName": "BranSystems.Container.IO",
-      "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.Container.IO\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,8 +113,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dkh7X/KKGT6uMlmEetJEW3/CrtxkXc65Hj/HiVhEjlD9fsT5bzj416P8g5m39dCeRchDBGelwFQRLSqSqkCNIA==",
+  "dgSpecHash": "KjzyUK4ivgSuxV6YRQghqr+EFBMIOXOzg0FlFfrYIjjJ20dR99/Y1m9WPNLtg2AEFLa71d/zpLQrDZDvzY1tIA==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",

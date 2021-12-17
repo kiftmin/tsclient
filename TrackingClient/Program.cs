@@ -20,9 +20,9 @@ namespace TestClass
     {
         public static void Main(string[] args)
         {
-            CreateHostBuilder(args)
-                .Build()
-                .Run();
+            //////CreateHostBuilder(args)
+            //////    .Build()
+            //////    .Run();
 
             // Get environment variables
             var config = new ConfigurationBuilder()
@@ -44,16 +44,16 @@ namespace TestClass
             host.Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder
-                        //.UseKestrel()
-                        //.UseContentRoot(Directory.GetCurrentDirectory())
-                        .UseUrls("http://*:5000")
-                        //.UseIISIntegration()
-                        .UseStartup<Startup>();
-                });
+        //////public static IHostBuilder CreateHostBuilder(string[] args) =>
+        //////    Host.CreateDefaultBuilder(args)
+        //////        .ConfigureWebHostDefaults(webBuilder =>
+        //////        {
+        //////            webBuilder
+        //////                //.UseKestrel()
+        //////                //.UseContentRoot(Directory.GetCurrentDirectory())
+        //////                .UseUrls("http://*:5000")
+        //////                //.UseIISIntegration()
+        //////                .UseStartup<Startup>();
+        //////        });
     }
 }

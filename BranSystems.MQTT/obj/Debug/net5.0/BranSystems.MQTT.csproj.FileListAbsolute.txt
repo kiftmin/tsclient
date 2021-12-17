@@ -10,3 +10,15 @@ C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\n
 C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.dll
 C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\ref\BranSystems.MQTT.dll
 C:\kiftmin\BransystemsCC\BranSystemsCloudContainers\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.pdb
+C:\Users\Administrator\source\repos\kiftmin\tsclient\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.deps.json
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.dll
+C:\Users\Administrator\source\repos\kiftmin\tsclient\BranSystems.MQTT\bin\Debug\net5.0\ref\BranSystems.MQTT.dll
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\bin\Debug\net5.0\BranSystems.MQTT.pdb
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.AssemblyInfoInputs.cache
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.AssemblyInfo.cs
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.dll
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\ref\BranSystems.MQTT.dll
+C:\Users\Administrator\Source\Repos\kiftmin\tsclient\BranSystems.MQTT\obj\Debug\net5.0\BranSystems.MQTT.pdb

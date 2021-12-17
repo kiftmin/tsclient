@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
       "projectName": "BranSystems.MQTT",
-      "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

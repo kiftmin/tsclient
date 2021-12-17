@@ -6,6 +6,10 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
+# Install prerequisites
+RUN apt-get update && apt-get install -y \
+curl
+CMD /bin/bash
 COPY ["TrackingClient/TrackingClient.csproj", "TrackingClient/"]
 COPY ["BranSystems.Container.RFIDReader/BranSystems.Container.RFIDReader.csproj", "BranSystems.Container.RFIDReader/"]
 COPY ["BranSystems.RFIDReader.MQTT/BranSystems.MQTT.Device.RFIDReader.csproj", "BranSystems.RFIDReader.MQTT/"]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0b4A9DnmCiCel5QP9WhERanlUpOZCqtnu8VqxGELDuz8jroV5JHflBqzcfpryEwcdKt/S8dastXdqor8t2wUgA==",
+  "dgSpecHash": "wPT7cBf7HGxTcQLrEJwkfib57z+KklzWM4/R4NgzloA6/134luOWU01fbCJIcwE9UCsFzYE4617yDZxQkgA30Q==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",

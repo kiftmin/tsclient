@@ -70,11 +70,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
       "projectName": "BranSystems.MQTT.Device.RFIDReader",
-      "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.RFIDReader.MQTT\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,8 +95,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
-              "projectPath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
             }
           }
         }

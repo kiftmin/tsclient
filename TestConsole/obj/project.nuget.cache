@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+nNX+arAl/0PqzTNCHxAY0fx/PGF0tsdqlBx+jSOZ+rbBoztAlTtameQXaE/52gDOwLfvkR1JeVZow75wEMrrw==",
+  "dgSpecHash": "/tPm4Wm9nBuFO/E6bYjtI2Vs4Wa996OQL744kTj/unYNE+/MsZGPNk4/QUVTIlu87lgCsR1CWigtqxgiE6ngsw==",
   "success": true,
-  "projectFilePath": "C:\\kiftmin\\BransystemsCC\\BranSystemsCloudContainers\\TestConsole\\TestConsole.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TestConsole\\TestConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
