@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
         "packagesPath": "C:\\Users\\Bradley\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\obj\\",
+=======
+    "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+        "projectName": "BranSystems.MQTT",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\obj\\",
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

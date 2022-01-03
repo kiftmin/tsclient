@@ -660,11 +660,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TestConsole\\TestConsole.csproj",
       "projectName": "TestConsole",
       "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TestConsole\\TestConsole.csproj",
       "packagesPath": "C:\\Users\\Bradley\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TestConsole\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TestConsole\\TestConsole.csproj",
+      "projectName": "TestConsole",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TestConsole\\TestConsole.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TestConsole\\obj\\",
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -688,6 +696,7 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
               "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
             },
@@ -696,6 +705,16 @@
             },
             "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
               "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
+=======
+            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
+            },
+            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
+            },
+            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
             }
           }
         }

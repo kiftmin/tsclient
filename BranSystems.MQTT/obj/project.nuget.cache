@@ -1,8 +1,19 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "0F3iS5265Em0+dNMwBPJTfzNzqJJPOj4JfWDW9NttK34fXOP5mAoJq+o+7o0dYb3Z6e7qz6ghr+NstRTzjquaw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "5LJxyRusy9Yaq2ywHM9qQrbRvr6da0m0l8MxoAVLMtOUQju4D1XEULV2/W8NVWdKd3kAn0krTqtLCKSUqclWfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
   "logs": []
 }

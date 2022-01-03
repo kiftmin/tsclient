@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "KlimT00ofuBCz9AJ/p6XKSpy4v5fwPD9kpl74lAqyXECpVrQCFxWgKaKkIT3woJy1++LiCQPY+krNtFvYrmOhg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\TrackingClient.csproj",
+=======
+  "dgSpecHash": "0wBZbpX2Lat772YFTxP4ARd8owl+8Y0laVbyg2fpwY4d9MFyaCYKPQ9FsoJfDeDjre5Gj+v6Rv0xJPeoj5Dz6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TrackingClient\\TrackingClient.csproj",
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

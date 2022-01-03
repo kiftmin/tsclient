@@ -3,6 +3,14 @@ build_property.TargetFramework = net5.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
+<<<<<<< HEAD
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+=======
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TestConsole
+build_property.ProjectDir = C:\Users\Administrator\source\repos\kiftmin\tsclient\TestConsole\
+>>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
