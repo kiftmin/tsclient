@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "VJhljfs+G1REgzd45ynqd+qKg+xDJ8mHa1u1IpIwiNnWySX+HrIg9GhIRJ7UlcbXF4N7P/qM5YeI1Rz7HHrnIQ==",
+  "dgSpecHash": "aabt70gkrf1S+9UWf8ungsSvhDbFR/Hh7pA00H67e1sIcbJjV0GYKEXvVQagmMWbFSjq2RVgA2Zf8HSQXLwjsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TestConsole\\TestConsole.csproj",
-=======
-  "dgSpecHash": "/tPm4Wm9nBuFO/E6bYjtI2Vs4Wa996OQL744kTj/unYNE+/MsZGPNk4/QUVTIlu87lgCsR1CWigtqxgiE6ngsw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TestConsole\\TestConsole.csproj",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+  "projectFilePath": "C:\\kiftmin\\tsclient\\TestConsole\\TestConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Bradley\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",

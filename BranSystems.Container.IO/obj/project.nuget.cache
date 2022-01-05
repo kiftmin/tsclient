@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "w3+dU8jPh3kK90bzOsRS24KJs5ULYulgWSuzNNnWAxl3jwKZOPrBBbGbMYA/qTomAOvSOyf61LqBFzROh7jXiA==",
+  "dgSpecHash": "OFHcgx8RQr8WWDQYKdbr1h5nXSMxQHPKxSPUHgVVVYg8Eu0i/1nVLNc2vUlJYxhv7w10C+i6g+1Htj9wL6AGUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
-=======
-  "dgSpecHash": "jT3lVTgw0E2ldag5zvpgDyk84OAhq4ADC/PsP8aLouoOuKCKdldv1PkSUUbO4T8ohtr/6g5ZWBvyAMcFqy38fQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+  "projectFilePath": "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],

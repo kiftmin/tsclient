@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "r9QautOI7HBWrsI/frJh2qd8JJALBwJ02UDG01cVDkt5pkdHlXSwEZ3YmtzunhXIyw1oghsa9sqNO6aku29p9A==",
+  "dgSpecHash": "2LpM5I/iiYUtSxHOJGp10ifU6J39Gdv6MbOZ7In6Jd1cmOYSqYpb1EM5+qG4x9aK16nc/TYGuL1RGRZHbq5OKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
-=======
-  "dgSpecHash": "wPT7cBf7HGxTcQLrEJwkfib57z+KklzWM4/R4NgzloA6/134luOWU01fbCJIcwE9UCsFzYE4617yDZxQkgA30Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+  "projectFilePath": "C:\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],

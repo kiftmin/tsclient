@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "c/8Mjax38OnNrwaztKr6CtzlAgrg+Gp9nO9ItM1JB2nohw50ySQkx/W0hI3eOv5B6Ng2IvUa9uiCvrUjaDkUVQ==",
+  "dgSpecHash": "G8FNSLeyg7wgmvkegbgQlNU5uR3HjWaLuIoaXJUL2z1qxPibfsGYa4rv+XEHNnezqC8PpLAZ4HhxJxAzn/YhLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj",
-=======
-  "dgSpecHash": "KjzyUK4ivgSuxV6YRQghqr+EFBMIOXOzg0FlFfrYIjjJ20dR99/Y1m9WPNLtg2AEFLa71d/zpLQrDZDvzY1tIA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+  "projectFilePath": "C:\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"
   ],

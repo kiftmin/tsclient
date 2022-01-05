@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "MQTTnet/3.0.16": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/MQTTnet.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/MQTTnet.dll": {}
+        }
+      },
+      "BranSystems.MQTT/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BranSystems.MQTT.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BranSystems.MQTT.dll": {}
+        }
+      },
+      "BranSystems.MQTT.Device.IOController/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BranSystems.MQTT": "1.0.0",
+          "MQTTnet": "3.0.16"
+        },
+        "compile": {
+          "bin/placeholder/BranSystems.MQTT.Device.IOController.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BranSystems.MQTT.Device.IOController.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MQTTnet/3.0.16": {
+      "sha512": "xzqmKwVjTpT/X5zoLuhBCHmYVSRAlxeXqExvHLqfbt5OfTHfrD/q62IteJbOtlNG/SepeRpm76dYUZSU5o8y1A==",
+      "type": "package",
+      "path": "mqttnet/3.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "images/Logo_128x128.png",
+        "lib/net452/MQTTnet.dll",
+        "lib/net461/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.deps.json",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.deps.json",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.deps.json",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.deps.json",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.deps.json",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/uap10.0/MQTTnet.dll",
+        "lib/uap10.0/MQTTnet.pri",
+        "mqttnet.3.0.16.nupkg.sha512",
+        "mqttnet.nuspec"
+      ]
+    },
+    "BranSystems.MQTT/1.0.0": {
+      "type": "project",
+      "path": "../BranSystems.MQTT/BranSystems.MQTT.csproj",
+      "msbuildProject": "../BranSystems.MQTT/BranSystems.MQTT.csproj"
+    },
+    "BranSystems.MQTT.Device.IOController/1.0.0": {
+      "type": "project",
+      "path": "../BranSystems.MQTT.Device.IOController/BranSystems.MQTT.Device.IOController.csproj",
+      "msbuildProject": "../BranSystems.MQTT.Device.IOController/BranSystems.MQTT.Device.IOController.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BranSystems.MQTT.Device.IOController >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bradley\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+      "projectName": "BranSystems.Container.IO",
+      "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj",
+      "packagesPath": "C:\\Users\\Bradley\\.nuget\\packages\\",
+      "outputPath": "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Bradley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+}

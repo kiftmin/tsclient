@@ -33,7 +33,6 @@
     ".NETCoreApp,Version=v5.0": {
       "TrackingClient/1.0.0": {
         "dependencies": {
-          "BranSystems.Container.IO": "1.0.0",
           "BranSystems.Container.RFIDReader": "1.0.0",
           "BranSystems.MQTT": "1.0.0",
           "BranSystems.MQTT.Device.IOController": "1.0.0",
@@ -46,6 +45,7 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.14.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "System.Data.SqlClient": "4.8.3",
+          "`": "1.0.0",
           "ErrorLog": "3.0.0.0",
           "IOClasses": "2.0.0.0",
           "RFIDReader": "3.0.0.0",
@@ -2111,17 +2111,6 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "BranSystems.Container.IO/1.0.0": {
-        "dependencies": {
-          "BranSystems.MQTT.Device.IOController": "1.0.0"
-        },
-        "runtime": {
-          "BranSystems.Container.IO.dll": {}
-        },
-        "compile": {
-          "BranSystems.Container.IO.dll": {}
-        }
-      },
       "BranSystems.Container.RFIDReader/1.0.0": {
         "dependencies": {
           "BranSystems.MQTT.Device.RFIDReader": "1.0.0",
@@ -2165,6 +2154,17 @@
         },
         "compile": {
           "BranSystems.MQTT.Device.RFIDReader.dll": {}
+        }
+      },
+      "`/1.0.0": {
+        "dependencies": {
+          "BranSystems.MQTT.Device.IOController": "1.0.0"
+        },
+        "runtime": {
+          "`.dll": {}
+        },
+        "compile": {
+          "`.dll": {}
         }
       },
       "ErrorLog/3.0.0.0": {
@@ -4945,11 +4945,6 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "BranSystems.Container.IO/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "BranSystems.Container.RFIDReader/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -4966,6 +4961,11 @@
       "sha512": ""
     },
     "BranSystems.MQTT.Device.RFIDReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "`/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

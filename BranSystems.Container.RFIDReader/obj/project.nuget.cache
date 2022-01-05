@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "INmxRIywxJ6I3Qwh2UFDTtOcKChmH4AJRRe8uqd3MOYszwW6kl8/jYHaqHo/N36zoecbBT57zb9fm63qDsm7Fw==",
+  "dgSpecHash": "3N46dI3fPSFNns4crhQGG4FflOO38IRAp5HaMaICYI16qHP7Bt8/BtVERpXcpbhILXK1qGpblXE/pFWvNIBlAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
-=======
-  "dgSpecHash": "VNY1vM/FOC36LM5LFTYPSO1j9Z7SS566TO+7QALrwZbEl9I+ffHtlOZoKEe7iWjvw9aw9NaqgCwOXp6O+kW6JA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+  "projectFilePath": "C:\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bradley\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Bradley\\.nuget\\packages\\mqttnet\\3.0.16\\mqttnet.3.0.16.nupkg.sha512"

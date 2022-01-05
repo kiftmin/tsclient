@@ -2358,19 +2358,6 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "BranSystems.Container.IO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "BranSystems.MQTT.Device.IOController": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BranSystems.Container.IO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BranSystems.Container.IO.dll": {}
-        }
-      },
       "BranSystems.Container.RFIDReader/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2422,6 +2409,19 @@
         },
         "runtime": {
           "bin/placeholder/BranSystems.MQTT.Device.RFIDReader.dll": {}
+        }
+      },
+      "`/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "BranSystems.MQTT.Device.IOController": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/`.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/`.dll": {}
         }
       }
     }
@@ -4264,7 +4264,6 @@
       "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -4280,7 +4279,6 @@
       "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -4296,7 +4294,6 @@
       "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -4414,7 +4411,6 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4482,7 +4478,6 @@
       "path": "system.collections.concurrent/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4576,6 +4571,7 @@
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5087,7 +5083,6 @@
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5183,7 +5178,6 @@
       "path": "system.diagnostics.tools/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5240,7 +5234,6 @@
       "path": "system.diagnostics.tracing/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5369,7 +5362,6 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5499,7 +5491,6 @@
       "path": "system.io/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5580,7 +5571,6 @@
       "path": "system.io.filesystem/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5618,7 +5608,6 @@
       "path": "system.io.filesystem.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5679,7 +5668,6 @@
       "path": "system.linq/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5751,7 +5739,6 @@
       "path": "system.linq.expressions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5858,6 +5845,7 @@
       "path": "system.net.nameresolution/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5899,7 +5887,6 @@
       "path": "system.net.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5978,7 +5965,6 @@
       "path": "system.objectmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6048,6 +6034,7 @@
       "path": "system.private.datacontractserialization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.3/System.Private.DataContractSerialization.dll",
@@ -6077,7 +6064,6 @@
       "path": "system.reflection/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6284,7 +6270,6 @@
       "path": "system.reflection.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6365,7 +6350,6 @@
       "path": "system.reflection.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6476,7 +6460,6 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6533,7 +6516,6 @@
       "path": "system.runtime/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6691,7 +6673,6 @@
       "path": "system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6772,7 +6753,6 @@
       "path": "system.runtime.handles/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6810,7 +6790,6 @@
       "path": "system.runtime.interopservices/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6903,7 +6882,6 @@
       "path": "system.runtime.serialization.formatters/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6932,7 +6910,6 @@
       "path": "system.runtime.serialization.json/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6991,6 +6968,7 @@
       "path": "system.runtime.serialization.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7172,7 +7150,6 @@
       "path": "system.security.cryptography.primitives/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7368,7 +7345,6 @@
       "path": "system.text.encoding/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7476,7 +7452,6 @@
       "path": "system.text.encoding.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7563,7 +7538,6 @@
       "path": "system.text.regularexpressions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7647,7 +7621,6 @@
       "path": "system.threading/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7739,7 +7712,6 @@
       "path": "system.threading.tasks/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7865,7 +7837,6 @@
       "path": "system.xml.readerwriter/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -7937,7 +7908,6 @@
       "path": "system.xml.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8007,6 +7977,7 @@
       "path": "system.xml.xmldocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8109,11 +8080,6 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "BranSystems.Container.IO/1.0.0": {
-      "type": "project",
-      "path": "../BranSystems.Container.IO/BranSystems.Container.IO.csproj",
-      "msbuildProject": "../BranSystems.Container.IO/BranSystems.Container.IO.csproj"
-    },
     "BranSystems.Container.RFIDReader/1.0.0": {
       "type": "project",
       "path": "../BranSystems.Container.RFIDReader/BranSystems.Container.RFIDReader.csproj",
@@ -8133,11 +8099,15 @@
       "type": "project",
       "path": "../BranSystems.RFIDReader.MQTT/BranSystems.MQTT.Device.RFIDReader.csproj",
       "msbuildProject": "../BranSystems.RFIDReader.MQTT/BranSystems.MQTT.Device.RFIDReader.csproj"
+    },
+    "`/1.0.0": {
+      "type": "project",
+      "path": "../BranSystems.Container.IO/BranSystems.Container.IO.csproj",
+      "msbuildProject": "../BranSystems.Container.IO/BranSystems.Container.IO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "BranSystems.Container.IO >= 1.0.0",
       "BranSystems.Container.RFIDReader >= 1.0.0",
       "BranSystems.MQTT >= 1.0.0",
       "BranSystems.MQTT.Device.IOController >= 1.0.0",
@@ -8149,7 +8119,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
-      "System.Data.SqlClient >= 4.8.3"
+      "System.Data.SqlClient >= 4.8.3",
+      "` >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8161,19 +8132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\TrackingClient.csproj",
+      "projectUniqueName": "C:\\kiftmin\\tsclient\\TrackingClient\\TrackingClient.csproj",
       "projectName": "TrackingClient",
-      "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\TrackingClient.csproj",
+      "projectPath": "C:\\kiftmin\\tsclient\\TrackingClient\\TrackingClient.csproj",
       "packagesPath": "C:\\Users\\Bradley\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\TrackingClient\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TrackingClient\\TrackingClient.csproj",
-      "projectName": "TrackingClient",
-      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TrackingClient\\TrackingClient.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\TrackingClient\\obj\\",
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+      "outputPath": "C:\\kiftmin\\tsclient\\TrackingClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8197,37 +8160,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
-              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
+            "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
             },
-            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj": {
-              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj"
+            "C:\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj"
             },
-            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
-              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
+            "C:\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
             },
-            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
-              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
+            "C:\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
             },
-            "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
-              "projectPath": "C:\\Users\\Bradley\\Source\\Repos\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
-=======
-            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.IO\\BranSystems.Container.IO.csproj"
-            },
-            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.Container.RFIDReader\\BranSystems.Container.RFIDReader.csproj"
-            },
-            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT.Device.IOController\\BranSystems.MQTT.Device.IOController.csproj"
-            },
-            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.MQTT\\BranSystems.MQTT.csproj"
-            },
-            "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
->>>>>>> c55145b4d24902dd73ed3f56b9c2e2517cde24e2
+            "C:\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj": {
+              "projectPath": "C:\\kiftmin\\tsclient\\BranSystems.RFIDReader.MQTT\\BranSystems.MQTT.Device.RFIDReader.csproj"
             }
           }
         }
